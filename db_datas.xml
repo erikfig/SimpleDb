@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<dataset>
+    <table name="pages">
+        <column>title</column>
+        <column>content</column>
+        <row>
+            <value>Home!</value>
+            <value>Página inicial, altere aqui</value>
+        </row>
+        <row>
+            <value>Sobre nós</value>
+            <value>E o que vc quer sobre a empresa</value>
+        </row>
+    </table>
+</dataset>

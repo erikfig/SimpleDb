@@ -1,0 +1,24 @@
+{
+    "name":"webdevbr/simple_db",
+    "description":"Um simples auxilio para consultas ao banco de dados, não é um ORM",
+    "minimum-stability":"stable",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "WebDevBr": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "phpunit/phpunit":"*",
+        "phpunit/dbunit": ">=1.2"
+    },
+    "config": {
+        "bin-dir": "./bin"
+    }
+}
